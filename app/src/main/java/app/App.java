@@ -10,8 +10,8 @@ public class App {
     }
 
     public boolean store(String name) {
-        ConfigService cs = new ConfigService();
-        cs.getConfig("datastore");
+        ConfigService configService = new ConfigService();
+        configService.getConfig("datastore");
         return true;
     }
 }
